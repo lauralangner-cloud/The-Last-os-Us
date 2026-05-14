@@ -4,126 +4,139 @@
   <meta charset="UTF-8">
   <title>The Last of Us</title>
 
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+
 <header class="header">
   <div class="container d-flex justify-content-between align-items-center">
     <h1 class="logo">THE LAST OF US</h1>
 
     <nav>
-      <a href="#">Início</a>
-      <a href="#">História</a>
-      <a href="#">Personagens</a>
-      <a href="#">Galeria</a>
-      <a href="#">Contato</a>
+      <a href="#">INÍCIO</a>
+      <a href="#">HISTÓRIA</a>
+      <a href="#">PERSONAGENS</a>
+      <a href="#">GALERIA</a>
+      <a href="#">CONTATO</a>
     </nav>
   </div>
 </header>
 
-<!-- HERO -->
-<section class="hero">
+
+<section class="hero d-flex align-items-center">
   <div class="overlay"></div>
 
   <div class="container hero-content">
     <h1>THE<br>LAST<br>OF US</h1>
     <p>
-      Em um mundo devastado, Joel e Ellie enfrentam perigos
-      em uma jornada que mudará tudo.
+      O mundo acabou. A infecção venceu. E agora, cada passo pode ser o último — mas Ellie pode ser a única esperança que ainda resta.
     </p>
 
-    <a href="#" class="btn btn-success">▶ Assistir Trailer</a>
+    <a href="#" class="btn btn-success">▶ ASSISTIR TRAILER</a>
   </div>
 </section>
 
-<!-- HISTÓRIA -->
 <section class="historia">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
 
-      <div class="col-md-5">
-        <h2>A História</h2>
+      <div class="col-md-5 historia-texto">
+        <h2>A HISTÓRIA</h2>
+        <div class="linha"></div>
+
         <p>
-          Vinte anos após o colapso da civilização, Joel é contratado
-          para escoltar Ellie através dos Estados Unidos.
+          Vinte anos após o colapso da civilização, uma infecção fúngica tomou o planeta e transformou a humanidade em monstros. O mundo agora é dominado pelo medo, pela violência e pela sobrevivência a qualquer custo. Joel, um homem quebrado pelo passado, recebe a missão de escoltar Ellie — uma jovem que pode carregar a chave para salvar a humanidade. Em uma jornada implacável, eles precisarão enfrentar não apenas os infectados, mas também o pior lado dos próprios seres humanos.
         </p>
-        <button class="btn btn-outline-light">Saiba mais</button>
+
+        <button class="btn btn-outline-success">SAIBA MAIS</button>
       </div>
 
-      <div class="col-md-7 d-flex gap-3">
-        <div class="card bg-dark text-light">
-          <img src="img/jogo.jpg">
-          <div class="p-3">
-            <h5>O Jogo</h5>
+      <div class="col-md-7 d-flex gap-4">
+
+        <div class="card-custom">
+          <img src="">
+          <div class="card-overlay">
+            <h4>O JOGO</h4>
+            <p>Lançado em 2013, um dos jogos mais aclamados.</p>
           </div>
         </div>
 
-        <div class="card bg-dark text-light">
+        <div class="card-custom">
           <img src="img/serie.jpg">
-          <div class="p-3">
-            <h5>A Série</h5>
+          <div class="card-overlay">
+            <h4>A SÉRIE</h4>
+            <p>Adaptação da HBO lançada em 2023.</p>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
   </div>
 </section>
 
-<!-- PERSONAGENS -->
+
 <section class="personagens text-center">
   <div class="container">
     <h2>PERSONAGENS PRINCIPAIS</h2>
 
-    <div class="row mt-5">
+    <div class="row mt-5" id="Joel">
       <div class="col-md-4">
-        <img src="img/joel.jpg">
+        <img src="assets/joel.jpg">
         <h4>Joel</h4>
+        <p>Um sobrevivente marcado pelo passado.</p>
       </div>
 
-      <div class="col-md-4">
-        <img src="img/ellie.jpg">
+      <div class="col-md-4" id="Ellie">
+        <img src="assets/Bella Ramsey.jpg"">
         <h4>Ellie</h4>
+        <p>Imune à infecção e símbolo de esperança.</p>
       </div>
 
-      <div class="col-md-4">
-        <img src="img/infectado.jpg">
+      <div id class="col-md-4" id="Infectado">
+        <img src="assets/infectado.jpg">
         <h4>Infectados</h4>
+        <p>Criaturas perigosas e imprevisíveis.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- GALERIA -->
+
 <section class="galeria">
   <div class="container">
-    <h2>GALERIA</h2>
+    <h2 class="text-center mb-4">GALERIA</h2>
 
     <div class="row">
-      <div class="col-md-2"><img src="img/g1.jpg"></div>
-      <div class="col-md-2"><img src="img/g2.jpg"></div>
-      <div class="col-md-2"><img src="img/g3.jpg"></div>
-      <div class="col-md-2"><img src="img/g4.jpg"></div>
-      <div class="col-md-2"><img src="img/g5.jpg"></div>
-      <div class="col-md-2"><img src="img/g6.jpg"></div>
+      <div class="col-md-2"><img src="assets/janela galeria.jpg"></div>
+      <div class="col-md-2"><img src="assets/paisagem para galeria.jpg"></div>
+      <div class="col-md-2"><img src="assets/pedro pascal bella ramsey.jpg"></div>
+      <div class="col-md-2"><img src="assets/"></div>
+      <div class="col-md-2"><img src="assets/vagalumes.jpg"></div>
+      <div class="col-md-2"><img src="assets/violao do joel.jpg"></div>
+      
     </div>
   </div>
 </section>
 
-<!-- CONTATO -->
+
 <section class="contato">
-  <div class="container">
+  <div class="container text-center">
     <h2>ENTRE EM CONTATO</h2>
 
-    <input type="text" placeholder="Nome">
-    <input type="email" placeholder="E-mail">
-    <textarea placeholder="Mensagem"></textarea>
-
-    <button class="btn btn-success">Enviar</button>
+    <div class="row mt-4">
+      <div class="col-md-6 mx-auto">
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="E-mail">
+        <textarea placeholder="Mensagem"></textarea>
+        <button class="btn btn-success w-100">ENVIAR MENSAGEM</button>
+      </div>
+    </div>
   </div>
 </section>
 
